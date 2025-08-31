@@ -27,7 +27,6 @@ int main() {
         }
     }
 
-    // Searching
     int searchID;
     cout << "\nEnter Book ID to search: ";
     cin >> searchID;
@@ -49,7 +48,6 @@ int main() {
         cout << "Book with ID " << searchID << " is NOT available in the library.\n";
     }
 
-    // Free memory
     for (int i = 0; i < categories; i++) {
         delete[] books[i];
     }
@@ -59,4 +57,5 @@ int main() {
 
     return 0;
 }
+
 
