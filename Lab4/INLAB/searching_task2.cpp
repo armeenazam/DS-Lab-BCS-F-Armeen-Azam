@@ -4,7 +4,6 @@ using namespace std;
 int binarySearch(int ids[], int left, int right, int target) {
     if (left <= right) {
         int mid = (left + right) / 2;
-
         if (ids[mid] == target) return mid;
         else if (ids[mid] < target)
             return binarySearch(ids, mid + 1, right, target);
