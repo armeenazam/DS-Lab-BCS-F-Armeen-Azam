@@ -15,7 +15,7 @@ int binarySearch(int ids[], int left, int right, int target) {
 }
 
 int main() {
-    int count, rollNumber = 1026;
+    int count, rollNumber = 0654;
     cout << "Enter the number of employee IDs: ";
     cin >> count;
 
