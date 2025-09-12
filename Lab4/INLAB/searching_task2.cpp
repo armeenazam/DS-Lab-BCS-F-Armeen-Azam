@@ -13,7 +13,6 @@ int binarySearch(int ids[], int left, int right, int target) {
     }
     return -1;
 }
-
 int main() {
     int count, rollNumber = 0654;
     cout << "Enter the number of employee IDs: ";
@@ -60,7 +59,5 @@ int main() {
         delete[] empIDs;
         empIDs = updatedIDs;
     }
-
-    return 0;
 }
 
