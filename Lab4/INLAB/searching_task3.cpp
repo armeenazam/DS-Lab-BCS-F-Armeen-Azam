@@ -18,7 +18,6 @@ int searchInterpolation(int data[], int size, int value) {
     }
     return -1;
 }
-
 bool checkUniform(int data[], int size) {
     int step = data[1] - data[0];
     for (int k = 2; k < size; k++) {
@@ -70,5 +69,4 @@ int main() {
         cout << "Balance " << searchVal << " not found in the list." << endl;
     }
 
-    return 0;
 }
