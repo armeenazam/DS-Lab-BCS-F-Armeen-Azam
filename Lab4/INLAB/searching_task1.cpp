@@ -12,7 +12,6 @@ int main() {
         cout << "Enter element " << index + 1 << ": ";
         cin >> numbers[index];
     }
-
     cout << "Enter the value you want to search for: ";
     cin >> value;
 
@@ -29,5 +28,4 @@ int main() {
         cout << "Value " << value << " not found in the array." << endl;
     }
 
-    return 0;
 }
