@@ -29,8 +29,7 @@ int main() {
             seat[j+1] = seat[j];
             j--;
         }
-        seat[j+1] = current;
-    }
+        seat[j+1] = current;}
     cout<<"Employee order after sorting by priority: ";
     for(int i=0;i<total;i++) cout<<seat[i]<<" ";
     cout<<endl;
