@@ -13,7 +13,6 @@ int main() {
     int total;
     cout<<"How many employees are in the list? ";
     cin>>total;
-
     string seat[100]; 
     cout<<"Enter the designations (CEO, CTO, CFO, VP, MGR, EMP): "<<endl;
     for(int i=0;i<total;i++) {
