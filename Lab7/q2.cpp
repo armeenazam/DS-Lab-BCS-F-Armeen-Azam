@@ -84,7 +84,6 @@ public:
     }
     void heapSort() {
         int n = size;
-        // Build max heap (already a max heap if using insert)
         for (int i = n / 2 - 1; i >= 0; i--)
             heapify_down(i);
       
@@ -93,7 +92,7 @@ public:
             size--;
             heapify_down(0);
         }
-        size = n; // restore original size
+        size = n;
     }
 
     int* getArray() {
@@ -117,8 +116,7 @@ int main() {
 
     cout << "Heap after insertion: ";
     heap.display();
-
-    // Check if it's a Max-Heap
+    
     if (heap.isMaxHeap())
         cout << "Array represents a Max-Heap." << endl;
     else
