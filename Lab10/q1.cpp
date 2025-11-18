@@ -3,8 +3,8 @@ using namespace std;
 
 class Heap {
 private:
-    int size;       // current number of elements
-    int capacity;   // maximum size of heap
+    int size;    
+    int capacity;   
     int* arr;
 
     int parent(int i) { return (i - 1) / 2; }
@@ -72,9 +72,9 @@ public:
             return;
         }
 
-        arr[i] = arr[size - 1];  // Replace with last element
+        arr[i] = arr[size - 1];  
         size--;
-        heapify_down(i);          // Restore heap property
+        heapify_down(i);        
     }
 
     void display() {
